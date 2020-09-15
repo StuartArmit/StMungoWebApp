@@ -1,0 +1,21 @@
+This project was created using the Goolgle Web Toolkit and as such requires the GWT library to function.
+It is recommended to use the Eclipse IDE for Java EE Developers, however this project should run on any IDE with the relevant plugins installed.
+
+Prior to importing this project you should ensure you have the following plugins installed 
+this can be done via the Eclipse Marketplace.
+
+GWT Eclipse Plugin 3.0.0
+Google Cloud Tools for Eclipse 1.8.3
+
+Once the plugins are installed and the project imported, you may run via eclipse's inbuilt jetty server (GWT development mode with jetty)
+
+
+The project as downloaded is set up to run within the eclipse installed directory, 
+Should you wish to export and run locally or on a server please do the following:
+Open ServiceImp.java located within the SRC com.stmungo.server package
+Uncomment lines 33 34 35 and comment/remove lines 36 37 38 
+Save
+Run GWT Compiler
+Export the WAR file 
+Run via a local server of you choice.
+

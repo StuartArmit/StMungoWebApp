@@ -1,0 +1,2 @@
+serviceClass: com.stmungo.client.service.Service
+path: 7AFFF59D5E1391FEFFB8957FC2C497FF.gwt.rpc
